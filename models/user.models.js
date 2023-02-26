@@ -30,7 +30,7 @@ const User = db.define('user', {
     type: DataTypes.STRING,
     allowNull: false,
     defaultValue: 'available',
-    enum: ['unavailable', 'unavailable'],
+    enum: ['unavailable', 'available']
   },
 });
 
